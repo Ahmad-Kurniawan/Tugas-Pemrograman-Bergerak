@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CobaAhmad2"
+    android:padding="25dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:gravity="center"
+        android:text=" Hasil Hitung Luas dan Keliling Persegi Panjang"
+        android:textColor="#490460"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="5dp"
+        android:paddingBottom="10dp"
+        android:text="PANJANG :"
+        android:textColor="#490460"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Panjang"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:hint="Nilai Panjang"
+        android:textStyle="italic"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="5dp"
+        android:paddingBottom="10dp"
+        android:text="LEBAR :"
+        android:textColor="#490460"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Lebar"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:hint="Nilai Lebar"
+        android:inputType="number"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="5dp"
+        android:paddingBottom="10dp"
+        android:text="LUAS :"
+        android:textColor="#490460"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/HasilLuas"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:hint="Hasil Luas"
+        android:inputType="number"
+        android:textStyle="italic"/>/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="5dp"
+        android:paddingBottom="10dp"
+        android:text="KELILING :"
+        android:textColor="#490460"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Hasilkeliling"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:hint="Hasil Keliling"
+        android:inputType="number"
+        android:textStyle="italic"/>/>
+
+    <TextView
+        android:layout_width="337dp"
+        android:layout_height="338dp"
+        android:gravity="center"
+        android:text="Good Luck ^.^"
+        android:textColor="#490460"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+</LinearLayout>
